@@ -1,3 +1,5 @@
+package com.madhadesgames.testpackage;
+
 import java.util.Objects;
 
 public class Ville {
@@ -72,7 +74,7 @@ public class Ville {
     public Ville(String pNomVille, int pNbHabitant, String pNomPays){
         nombreInstance++;
         nombreInstanceBis++;
-        System.out.println("Creation d'un objet Ville avec paramètres passés au constructeur");
+        System.out.println("Creation d'un objet com.madhadesgames.testpackage.Ville avec paramètres passés au constructeur");
         this.mNomVille = pNomVille;
         this.mNombreHabitants = pNbHabitant;
         this.mNomPays = pNomPays;

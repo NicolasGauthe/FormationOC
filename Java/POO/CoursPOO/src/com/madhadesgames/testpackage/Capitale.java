@@ -1,3 +1,5 @@
+package com.madhadesgames.testpackage;
+
 public class Capitale extends Ville {
 
     private String monument;

@@ -9,6 +9,7 @@ public class Test {
         hades.deplacement();
         hades.crier();
         hades.faireCalin();
+        hades.faireCheck();
         System.out.println(hades.toString());
 
         // Exemple de polymorphisme

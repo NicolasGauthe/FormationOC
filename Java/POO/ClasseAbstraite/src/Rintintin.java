@@ -3,4 +3,7 @@ public interface Rintintin {
     void faireCalin();
     void faireLechouille();
     void faireLeBeau();
+    default void faireCheck() {
+        System.out.println("Je check avec la patte !");
+    }
 }

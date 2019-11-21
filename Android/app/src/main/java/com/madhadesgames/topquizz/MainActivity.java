@@ -2,6 +2,7 @@ package com.madhadesgames.topquizz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -51,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // ici on decide de ce qui arrive quand on click le bouton
+                Intent gameActivityIntent = new Intent(MainActivity.this, GameActivity.class);
+                startActivity(gameActivityIntent);
             }
         });
     }
